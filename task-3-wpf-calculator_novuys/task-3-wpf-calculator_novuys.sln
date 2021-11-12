@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-3-wpf-calculator_novuys", "task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys.csproj", "{22506E7D-667F-4E17-8E28-03246D8915CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22506E7D-667F-4E17-8E28-03246D8915CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22506E7D-667F-4E17-8E28-03246D8915CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22506E7D-667F-4E17-8E28-03246D8915CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22506E7D-667F-4E17-8E28-03246D8915CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A729271-0FF0-4ACE-BEE3-281B2149B932}
+	EndGlobalSection
+EndGlobal

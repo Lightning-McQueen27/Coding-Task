@@ -1,0 +1,43 @@
+﻿<Window x:Class="primer_clicker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:primer_clicker"
+        mc:Ignorable="d"
+         Title="MainWindow" Height="720" Width="1280" MaxHeight="1280" MaxWidth="1920" MinHeight="600" MinWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Button MaxWidth="200" MinWidth="100" Grid.Row="1" Grid.Column="1" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" BorderThickness="0" HorizontalAlignment="Stretch" BorderBrush="#FFF1E8E8" Background="#FFEFF7F7" Foreground="White" x:Name="Batton" Visibility="Visible">
+            <Image Source="/cookies_1029391.png" Visibility="Visible" MouseLeftButtonDown="Batton_Click"/>
+        </Button>
+        <TextBox  MaxWidth="200" MinWidth="100" Grid.Row="0" Grid.Column="1" Text="Go" TextWrapping="Wrap"  Background="#FFEFF7F7" Foreground="#FFDF8C34" SelectionBrush="#FFF5FBFC" FontSize="36" FontWeight="Bold" TextAlignment="Center" FontStyle="Normal" x:Name="Texbox" VerticalAlignment="Top" Margin="37,35,52,234" Grid.RowSpan="2">
+            <TextBox.TextDecorations>
+                <TextDecoration/>
+            </TextBox.TextDecorations>
+        </TextBox>
+        <Button Grid.Row="3" Grid.Column="1" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" BorderThickness="0" BorderBrush="#FFF1E8E8" Background="#FFF8FDFC" Foreground="White" x:Name="Batton_zanvo">
+            <Image Source="/zanovo.png"  Visibility="Visible"  Width="88" Height="88" MouseLeftButtonDown="Button_zanovo" />
+        </Button>
+        <Button Margin="12 80 320 0" MaxWidth="100" MinWidth="80"  Content="Автокликер " Grid.Row="0" Grid.Column="1" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" BorderThickness="0" BorderBrush="#FFF1E8E8" Background="#FF293CA3" Foreground="White" x:Name="Batton_">
+        </Button>
+        <Button Margin="12 80 120 0" MaxWidth="100" MinWidth="80" Content="Автокликер " Grid.Row="0" Grid.Column="1" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" BorderThickness="0" BorderBrush="#FFF1E8E8" Background="#FFF8FDFC" Foreground="White" x:Name="Batton1">
+        </Button>
+        <Button Margin="90 80 0 0" MaxWidth="100" MinWidth="80" Content="Автокликер " Grid.Row="0" Grid.Column="1" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" BorderThickness="0" BorderBrush="#FFF1E8E8" Background="#FFF8FDFC" Foreground="White" x:Name="Batton2">
+        </Button>
+        <Button Margin="290 80 0 0" MaxWidth="100" MinWidth="80" Content="Автокликер " Grid.Row="0" Grid.Column="1" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" BorderThickness="0" BorderBrush="#FFF1E8E8" Background="#FFF8FDFC" Foreground="White" x:Name="Batton3">
+        </Button>
+    </Grid>
+    <Window.Background>
+        <ImageBrush ImageSource="/back_graund.jpg" />
+    </Window.Background>
+</Window>

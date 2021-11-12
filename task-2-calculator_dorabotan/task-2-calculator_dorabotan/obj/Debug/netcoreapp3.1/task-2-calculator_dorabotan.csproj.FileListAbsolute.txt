@@ -1,0 +1,13 @@
+D:\Project_coding_C#\coding-task\task-2-calculator_dorabotan\task-2-calculator_dorabotan\obj\Debug\netcoreapp3.1\task-2-calculator_dorabotan.csprojAssemblyReference.cache
+D:\Project_coding_C#\coding-task\task-2-calculator_dorabotan\task-2-calculator_dorabotan\obj\Debug\netcoreapp3.1\task-2-calculator_dorabotan.AssemblyInfoInputs.cache
+D:\Project_coding_C#\coding-task\task-2-calculator_dorabotan\task-2-calculator_dorabotan\obj\Debug\netcoreapp3.1\task-2-calculator_dorabotan.AssemblyInfo.cs
+D:\Project_coding_C#\coding-task\task-2-calculator_dorabotan\task-2-calculator_dorabotan\obj\Debug\netcoreapp3.1\task-2-calculator_dorabotan.csproj.CoreCompileInputs.cache
+D:\Project_coding_C#\coding-task\task-2-calculator_dorabotan\task-2-calculator_dorabotan\bin\Debug\netcoreapp3.1\task-2-calculator_dorabotan.exe
+D:\Project_coding_C#\coding-task\task-2-calculator_dorabotan\task-2-calculator_dorabotan\bin\Debug\netcoreapp3.1\task-2-calculator_dorabotan.deps.json
+D:\Project_coding_C#\coding-task\task-2-calculator_dorabotan\task-2-calculator_dorabotan\bin\Debug\netcoreapp3.1\task-2-calculator_dorabotan.runtimeconfig.json
+D:\Project_coding_C#\coding-task\task-2-calculator_dorabotan\task-2-calculator_dorabotan\bin\Debug\netcoreapp3.1\task-2-calculator_dorabotan.runtimeconfig.dev.json
+D:\Project_coding_C#\coding-task\task-2-calculator_dorabotan\task-2-calculator_dorabotan\bin\Debug\netcoreapp3.1\task-2-calculator_dorabotan.dll
+D:\Project_coding_C#\coding-task\task-2-calculator_dorabotan\task-2-calculator_dorabotan\bin\Debug\netcoreapp3.1\task-2-calculator_dorabotan.pdb
+D:\Project_coding_C#\coding-task\task-2-calculator_dorabotan\task-2-calculator_dorabotan\obj\Debug\netcoreapp3.1\task-2-calculator_dorabotan.dll
+D:\Project_coding_C#\coding-task\task-2-calculator_dorabotan\task-2-calculator_dorabotan\obj\Debug\netcoreapp3.1\task-2-calculator_dorabotan.pdb
+D:\Project_coding_C#\coding-task\task-2-calculator_dorabotan\task-2-calculator_dorabotan\obj\Debug\netcoreapp3.1\task-2-calculator_dorabotan.genruntimeconfig.cache

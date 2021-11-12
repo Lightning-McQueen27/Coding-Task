@@ -1,0 +1,15 @@
+D:\Project_coding_C#\coding-task\task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys\obj\Debug\task-3-wpf-calculator_novuys.csprojAssemblyReference.cache
+D:\Project_coding_C#\coding-task\task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys\obj\Debug\MainWindow.g.cs
+D:\Project_coding_C#\coding-task\task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys\obj\Debug\App.g.cs
+D:\Project_coding_C#\coding-task\task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys\obj\Debug\task-3-wpf-calculator_novuys_MarkupCompile.cache
+D:\Project_coding_C#\coding-task\task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys\obj\Debug\task-3-wpf-calculator_novuys_MarkupCompile.lref
+D:\Project_coding_C#\coding-task\task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys\bin\Debug\task-3-wpf-calculator_novuys.exe.config
+D:\Project_coding_C#\coding-task\task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys\bin\Debug\task-3-wpf-calculator_novuys.exe
+D:\Project_coding_C#\coding-task\task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys\bin\Debug\task-3-wpf-calculator_novuys.pdb
+D:\Project_coding_C#\coding-task\task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys\obj\Debug\MainWindow.baml
+D:\Project_coding_C#\coding-task\task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys\obj\Debug\task-3-wpf-calculator_novuys.g.resources
+D:\Project_coding_C#\coding-task\task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys\obj\Debug\task_3_wpf_calculator_novuys.Properties.Resources.resources
+D:\Project_coding_C#\coding-task\task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys\obj\Debug\task-3-wpf-calculator_novuys.csproj.GenerateResource.cache
+D:\Project_coding_C#\coding-task\task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys\obj\Debug\task-3-wpf-calculator_novuys.csproj.CoreCompileInputs.cache
+D:\Project_coding_C#\coding-task\task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys\obj\Debug\task-3-wpf-calculator_novuys.exe
+D:\Project_coding_C#\coding-task\task-3-wpf-calculator_novuys\task-3-wpf-calculator_novuys\obj\Debug\task-3-wpf-calculator_novuys.pdb

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "task-7-salary-tracke/1.0.0": {
+        "runtime": {
+          "task-7-salary-tracke.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "task-7-salary-tracke/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

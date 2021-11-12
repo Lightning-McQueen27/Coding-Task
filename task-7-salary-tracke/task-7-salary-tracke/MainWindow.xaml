@@ -1,0 +1,60 @@
+﻿<Window x:Class="task_7_salary_tracke.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:task_7_salary_tracke"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="1200" MinWidth="1000" MinHeight="350">
+    <Grid Name="MainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition MinWidth="200"></ColumnDefinition>
+            <ColumnDefinition MinWidth="200"></ColumnDefinition>
+            <ColumnDefinition MinWidth="200"></ColumnDefinition>
+            <ColumnDefinition MinWidth="200"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Margin="10,10,0,0" >
+                <RadioButton Content="Продавец" Name="RadioProd" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="Старший продавец" Name="RadioStprod" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="Менеджер" Name="RadioMened" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="Водитель" x:Name="RadioRider" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top"/>
+            </StackPanel>
+            <Label Name="LabelZpbaz" Content="Базовая зарплата" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="1" VerticalAlignment="Center"/>
+            <TextBox HorizontalAlignment="Left" Name="TextZpbaz" Margin="125,0,0,0" Grid.Row="1" Text="0" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" TextChanged="TextRadius_TextChanged"/>
+            <Label Name="HeightRadius" Content="Прибыль магзина" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="2" VerticalAlignment="Center"/>
+            <TextBox HorizontalAlignment="Left" Name="TextPrib" Margin="125,0,0,0" Grid.Row="2" Text="0" TextWrapping="Wrap" VerticalAlignment="Center" Width="60"/>
+            <Button Content="Расчитать" Name="AddButton" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="3" VerticalAlignment="Center" Width="173" Click="AddButton_Click"/>
+        </Grid>
+        <Label Content="Продавец" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Старший продавец" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Менеджер" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Водитель" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Данные для рачсёта" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
+        <ScrollViewer Grid.Column="1" Grid.Row="1">
+            <StackPanel x:Name="Stack_prod" CanVerticallyScroll="True"/>
+        </ScrollViewer>
+        <ScrollViewer Grid.Column="2" Grid.Row="1">
+            <StackPanel x:Name="Stack_stprod" CanVerticallyScroll="True"/>
+        </ScrollViewer>
+        <ScrollViewer Grid.Column="3" Grid.Row="1">
+            <StackPanel x:Name="Stack_mened" CanVerticallyScroll="True"/>
+        </ScrollViewer>
+        <ScrollViewer Grid.Column="4" Grid.Row="1">
+        <StackPanel x:Name="Stack_rider" CanVerticallyScroll="True"/>
+        </ScrollViewer>
+    </Grid>
+</Window>
+

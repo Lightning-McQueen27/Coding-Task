@@ -1,0 +1,15 @@
+D:\Project_coding_C#\coding-task\task-4-notepad\task-4-notepad\bin\Debug\task-4-notepad.exe.config
+D:\Project_coding_C#\coding-task\task-4-notepad\task-4-notepad\bin\Debug\task-4-notepad.exe
+D:\Project_coding_C#\coding-task\task-4-notepad\task-4-notepad\bin\Debug\task-4-notepad.pdb
+D:\Project_coding_C#\coding-task\task-4-notepad\task-4-notepad\obj\Debug\task-4-notepad.csprojAssemblyReference.cache
+D:\Project_coding_C#\coding-task\task-4-notepad\task-4-notepad\obj\Debug\MainWindow.g.cs
+D:\Project_coding_C#\coding-task\task-4-notepad\task-4-notepad\obj\Debug\App.g.cs
+D:\Project_coding_C#\coding-task\task-4-notepad\task-4-notepad\obj\Debug\task-4-notepad_MarkupCompile.cache
+D:\Project_coding_C#\coding-task\task-4-notepad\task-4-notepad\obj\Debug\task-4-notepad_MarkupCompile.lref
+D:\Project_coding_C#\coding-task\task-4-notepad\task-4-notepad\obj\Debug\MainWindow.baml
+D:\Project_coding_C#\coding-task\task-4-notepad\task-4-notepad\obj\Debug\task-4-notepad.g.resources
+D:\Project_coding_C#\coding-task\task-4-notepad\task-4-notepad\obj\Debug\task_4_notepad.Properties.Resources.resources
+D:\Project_coding_C#\coding-task\task-4-notepad\task-4-notepad\obj\Debug\task-4-notepad.csproj.GenerateResource.cache
+D:\Project_coding_C#\coding-task\task-4-notepad\task-4-notepad\obj\Debug\task-4-notepad.csproj.CoreCompileInputs.cache
+D:\Project_coding_C#\coding-task\task-4-notepad\task-4-notepad\obj\Debug\task-4-notepad.exe
+D:\Project_coding_C#\coding-task\task-4-notepad\task-4-notepad\obj\Debug\task-4-notepad.pdb

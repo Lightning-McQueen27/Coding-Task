@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primer_clicker", "primer_clicker\primer_clicker.csproj", "{B676D6EE-F685-4903-B475-459E7F15466C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B676D6EE-F685-4903-B475-459E7F15466C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B676D6EE-F685-4903-B475-459E7F15466C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B676D6EE-F685-4903-B475-459E7F15466C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B676D6EE-F685-4903-B475-459E7F15466C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C30D029-EBA7-403E-9E1D-E6A5C85DF160}
+	EndGlobalSection
+EndGlobal

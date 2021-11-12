@@ -1,0 +1,19 @@
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\bin\Debug\netcoreapp3.1\task-5-idle-game finaly version.exe
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\bin\Debug\netcoreapp3.1\task-5-idle-game finaly version.deps.json
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\bin\Debug\netcoreapp3.1\task-5-idle-game finaly version.runtimeconfig.json
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\bin\Debug\netcoreapp3.1\task-5-idle-game finaly version.runtimeconfig.dev.json
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\bin\Debug\netcoreapp3.1\task-5-idle-game finaly version.dll
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\bin\Debug\netcoreapp3.1\task-5-idle-game finaly version.pdb
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\obj\Debug\netcoreapp3.1\task-5-idle-game finaly version.csprojAssemblyReference.cache
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\obj\Debug\netcoreapp3.1\task-5-idle-game finaly version_MarkupCompile.cache
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\obj\Debug\netcoreapp3.1\task-5-idle-game finaly version_MarkupCompile.lref
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\obj\Debug\netcoreapp3.1\task-5-idle-game finaly version.g.resources
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\obj\Debug\netcoreapp3.1\task-5-idle-game finaly version.AssemblyInfoInputs.cache
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\obj\Debug\netcoreapp3.1\task-5-idle-game finaly version.AssemblyInfo.cs
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\obj\Debug\netcoreapp3.1\task-5-idle-game finaly version.csproj.CoreCompileInputs.cache
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\obj\Debug\netcoreapp3.1\task-5-idle-game finaly version.dll
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\obj\Debug\netcoreapp3.1\task-5-idle-game finaly version.pdb
+D:\Project_coding_C#\coding-task\task-5-idle-game\task-5-idle-game finaly version\task-5-idle-game finaly version\obj\Debug\netcoreapp3.1\task-5-idle-game finaly version.genruntimeconfig.cache

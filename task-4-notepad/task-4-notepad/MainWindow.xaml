@@ -1,0 +1,117 @@
+﻿<Window x:Class="TextEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextEditor"
+        mc:Ignorable="d"
+        Title="Notepad" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <ToolBar Height="30" Grid.Row="0">
+            <Button x:Name="openBtn" Click="openBtn_Click">
+                <Image Source="writing-on-an-open-book_icon-icons.com_70325.png" />
+            </Button>
+            <Separator />
+            <Button x:Name="saveBtn" Click="saveBtn_Click">
+                <Image Source="arrow_down_download_downloading_file_save_icon_123799.png" />
+            </Button>
+            <Separator />
+            <Button x:Name="printBtn" Click="printBtn_Click">
+                <Image Source="Print_icon-icons.com_55835.png" />
+            </Button>
+            <Separator />
+            <ToggleButton x:Name="btnBold" Command="EditingCommands.ToggleBold" Width="30">Ж</ToggleButton>
+            <Separator />
+            <ToggleButton x:Name="btnItalic" Command="EditingCommands.ToggleItalic" Width="30">К</ToggleButton>
+            <Separator />
+            <ToggleButton x:Name="btnUnderline" Command="EditingCommands.ToggleUnderline"  Width="30">
+                <ToggleButton.Content>
+                    <TextBlock TextDecorations="Underline">Ч</TextBlock>
+                </ToggleButton.Content>
+            </ToggleButton>
+            <Separator />
+            <ComboBox IsEditable="False" x:Name="fontCombobox" Width="100" SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" FontFamily="{Binding}" />
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <Separator />
+            <ComboBox x:Name="fontSizeBox" IsEditable="True" TextBoxBase.TextChanged="ComboBox_TextChanged">
+
+            </ComboBox>
+            <ComboBox Name="FontColor"  Height="27" Width="50" VerticalAlignment="Top" Margin="0">
+                <TextBlock>Выбор цвета текста</TextBlock>
+                <ComboBoxItem IsSelected="True">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="blacksquare.png"  Width="30" MouseLeftButtonDown="FontColor_black_Click" />
+                        <TextBlock>black</TextBlock>
+                    </StackPanel>
+                </ComboBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="green square.png" Width="30" MouseLeftButtonDown="FontColor_green_Click" />
+                    <TextBlock>green</TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="red.jpg" Width="30" MouseLeftButtonDown="FontColor_red_Click" />
+                    <TextBlock Width="29">red</TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="blue1.jpg" Width="30" MouseLeftButtonDown="FontColor_blue_Click" />
+                    <TextBlock>blue</TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="white.jpg" Width="30" MouseLeftButtonDown="FontColor_white_Click" />
+                    <TextBlock>white</TextBlock>
+                </StackPanel>
+            </ComboBox>
+
+            <ComboBox Name="BackGroundColor" Height="27" Width="50" VerticalAlignment="Top" Margin="0">
+                <TextBlock>Выбор цвета фона</TextBlock>
+                <ComboBoxItem IsSelected="True">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="blacksquare.png"  Width="30" MouseLeftButtonDown="BackGroundColor_black_Click" />
+                        <TextBlock>black</TextBlock>
+                    </StackPanel>
+                </ComboBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="green square.png" Width="30" MouseLeftButtonDown="BackGroundColor_green_Click" />
+                    <TextBlock>green</TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="red.jpg" Width="30" MouseLeftButtonDown="BackGroundColor_red_Click" />
+                    <TextBlock Width="29">red</TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="blue1.jpg" Width="30" MouseLeftButtonDown="BackGroundColor_blue_Click" />
+                    <TextBlock>blue</TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="white.jpg" Width="30" MouseLeftButtonDown="BackGroundColor_white_Click" />
+                    <TextBlock>white</TextBlock>
+                </StackPanel>
+            </ComboBox>
+
+
+           
+
+        </ToolBar>
+
+        <RichTextBox x:Name="textEditor" Grid.Row="2" SelectionChanged="textEditor_SelectionChanged">
+            <RichTextBox.Resources>
+
+                <Style TargetType="{x:Type Paragraph}">
+
+                    <Setter Property="Margin" Value="0"/>
+
+                </Style>
+
+            </RichTextBox.Resources>
+        </RichTextBox>
+    </Grid>
+</Window>

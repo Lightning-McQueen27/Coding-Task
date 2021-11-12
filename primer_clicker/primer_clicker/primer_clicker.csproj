@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1449800296_christmas-icon-cookie_47784.png" />
+    <None Remove="back_graund.jpg" />
+    <None Remove="cookies_102939.png" />
+    <None Remove="cookies_1029391.png" />
+    <None Remove="zanovo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="kartinki1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1449800296_christmas-icon-cookie_47784.png" />
+    <Resource Include="back_graund.jpg" />
+    <Resource Include="cookies_102939.png" />
+    <Resource Include="cookies_1029391.png" />
+    <Resource Include="zanovo.png" />
+  </ItemGroup>
+
+</Project>

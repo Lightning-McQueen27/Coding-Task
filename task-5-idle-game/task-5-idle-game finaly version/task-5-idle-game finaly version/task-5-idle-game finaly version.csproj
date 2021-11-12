@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>task_5_idle_game_finaly_version</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="back_graund.jpg" />
+    <None Remove="cake.png" />
+    <None Remove="clicker.png" />
+    <None Remove="cookies_102939.png" />
+    <None Remove="free-icon-dead-blow-hammer-1105682.png" />
+    <None Remove="free-icon-smartphone-4481391.png" />
+    <None Remove="nutella.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="resurse\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="back_graund.jpg" />
+    <Resource Include="cake.png" />
+    <Resource Include="clicker.png" />
+    <Resource Include="cookies_102939.png" />
+    <Resource Include="free-icon-dead-blow-hammer-1105682.png" />
+    <Resource Include="free-icon-smartphone-4481391.png" />
+    <Resource Include="nutella.png" />
+  </ItemGroup>
+
+</Project>
